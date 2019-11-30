@@ -23,6 +23,9 @@ import com.products.apirest.repository.ProductRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
+//Controller Products
+//Contains product CRUD
+
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping(value="/api")

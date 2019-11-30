@@ -20,6 +20,7 @@ import java.util.ArrayList;
 @EnableSwagger2
 public class SwaggerConfig {
 	
+	//Swagger configuration class
 	@Bean
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
@@ -32,6 +33,7 @@ public class SwaggerConfig {
 
     private ApiInfo metaInfo() {
 
+    	//Developer data
         ApiInfo apiInfo = new ApiInfo(
                 "Products API REST",
                 "Product registration api.",

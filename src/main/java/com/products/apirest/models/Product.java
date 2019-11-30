@@ -10,6 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
+//Product table in database
+
 @Entity
 @Table(name="TB_PRODUCTS")
 public class Product implements Serializable{
